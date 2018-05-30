@@ -1,0 +1,32 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ColumDer {
+    text-align: right;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+    font-size: 15px;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+    line-height: 1.5;
+}

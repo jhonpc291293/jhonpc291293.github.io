@@ -1,124 +1,138 @@
 <html>
+
 <head>
-<title>Índice</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<script type="text/javascript">
-function mostrar(id) {
-var objet = document.getElementById(id);
-for (var i = 1; i<=3; i++) {
-if (document.getElementById('submenu'+i)) {
-document.getElementById('submenu'+i).style.display='none';
-}
-}
-if (objet) {
-objet.style.display='block';
-}
-}
-</script>
+    <title>ï¿½ndice</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <script type="text/javascript">
+        function mostrar(id) {
+            var objet = document.getElementById(id);
+            for (var i = 1; i <= 3; i++) {
+                if (document.getElementById('submenu' + i)) {
+                    document.getElementById('submenu' + i).style.display = 'none';
+                }
+            }
+            if (objet) {
+                objet.style.display = 'block';
+            }
+        }
+    </script>
 
-<style type="text/css">
-
-dl, dt, dd, ul, li {
-margin: 0;
-padding: 0;
-list-style-type: none;
-}
-#menu {
-position: absolute;
-top: 5;
-left: 10;
-}
-dl#menu {
-width: 148px;
-}
-dl#menu dt {
-cursor: pointer;
-margin: 2px 0;;
-height: 20px;
-line-height: 20px;
-text-align: center;
-font-family: sans-serif;
-font-size: 11pt;
-border: 1px solid black;
-background-color: rgb(205,220,235);
-
-}
-dl#menu dd {
-border: 1px solid black;
-}
-dl#menu li {
-text-align: center;
-background: #fff;
-}
-dl#menu li a {
-color: #000;
-text-decoration: none;
-display: block;
-border: 0 none;
-height: 100%;
-}
-dl#menu dt a {
-color: #000;
-text-decoration: none;
-display: block;
-border: 0 none;
-height: 100%;
-}
-dl#menu li a:hover {
-background: rgb(225,240,255);
-}
-dl#menu dt a:hover {
-background: rgb(225,240,255);
-}
-</style>
+    <style type="text/css">
+        dl,
+        dt,
+        dd,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        #menu {
+            position: absolute;
+            top: 5;
+            left: 10;
+        }
+        
+        dl#menu {
+            width: 148px;
+        }
+        
+        dl#menu dt {
+            cursor: pointer;
+            margin: 2px 0;
+            ;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 11pt;
+            border: 1px solid black;
+            background-color: rgb(205, 220, 235);
+        }
+        
+        dl#menu dd {
+            border: 1px solid black;
+        }
+        
+        dl#menu li {
+            text-align: center;
+            background: #fff;
+        }
+        
+        dl#menu li a {
+            color: #000;
+            text-decoration: none;
+            display: block;
+            border: 0 none;
+            height: 100%;
+        }
+        
+        dl#menu dt a {
+            color: #000;
+            text-decoration: none;
+            display: block;
+            border: 0 none;
+            height: 100%;
+        }
+        
+        dl#menu li a:hover {
+            background: rgb(225, 240, 255);
+        }
+        
+        dl#menu dt a:hover {
+            background: rgb(225, 240, 255);
+        }
+    </style>
 </head>
 
 <body onload="mostrar()" topmargin="0">
-<dl id="menu" style="position: absolute; left: 19px; top: 5px">
-<dt onclick="javascript:mostrar('submenu1');">Html5</dt>
-<dd id="submenu1">
-<ul>
-<li><a href="capitulo1/capitulo_1.htm" target="I2">Capítulo &nbsp;&nbsp;1</a></li>
-<li><a href="capitulo2/capitulo_2.htm" target="I2">Capítulo &nbsp;&nbsp;2</a></li>
-<li><a href="capitulo3/capitulo_3.htm" target="I2">Capítulo &nbsp;&nbsp;3</a></li>
-<li><a href="capitulo4/capitulo_4.htm" target="I2">Capítulo &nbsp;&nbsp;4</a></li>
-<li><a href="capitulo5/capitulo_5.htm" target="I2">Capítulo &nbsp;&nbsp;5</a></li>
-<li><a href="capitulo6/capitulo_6.htm" target="I2">Capítulo &nbsp;&nbsp;6</a></li>
-<li><a href="capitulo7/capitulo_7.htm" target="I2">Capítulo &nbsp;&nbsp;7</a></li>
-<li><a href="capitulo8/capitulo_8.htm" target="I2">Capítulo &nbsp;&nbsp;8</a></li>
-<li><a href="capitulo9/capitulo_9.htm" target="I2">Capítulo &nbsp;&nbsp;9</a></li>
-<li><a href="capitulo10/capitulo_10.htm" target="I2">Capítulo 10</a></li>
+    <dl id="menu" style="position: absolute; left: 19px; top: 5px">
+        <dt onclick="javascript:mostrar('submenu1');">Ingenieria web</dt>
+        <dd id="submenu1">
+            <ul>
+                <li><a href="capitulo1/capitulo_1.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;1</a></li>
+                <li><a href="capitulo2/capitulo_2.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;2</a></li>
+                <li><a href="capitulo3/capitulo_3.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;3</a></li>
+                <li><a href="capitulo4/capitulo_4.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;4</a></li>
+                <li><a href="capitulo5/capitulo_5.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;5</a></li>
+                <li><a href="capitulo6/capitulo_6.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;6</a></li>
+                <li><a href="capitulo7/capitulo_7.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;7</a></li>
+                <li><a href="capitulo8/capitulo_8.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;8</a></li>
+                <li><a href="capitulo9/capitulo_9.htm" target="I2">Capï¿½tulo &nbsp;&nbsp;9</a></li>
+                <li><a href="capitulo10/capitulo_10.htm" target="I2">Capï¿½tulo 10</a></li>
 
-</ul>
-</dd>	
-<dt onclick="javascript:mostrar('submenu2');">CSS3</dt>
-<dd id="submenu2">
-<ul>
-<li><a href="capitulo11/capitulo_11.htm" target="I2">Capítulo 11</a></li>
-<li><a href="capitulo12/capitulo_12.htm" target="I2">Capítulo 12</a></li>
-<li><a href="capitulo13/capitulo_13.htm" target="I2">Capítulo 13</a></li>
-<li><a href="capitulo14/capitulo_14.htm" target="I2">Capítulo 14</a></li>
-<li><a href="capitulo15/capitulo_15.htm" target="I2">Capítulo 15</a></li>
-<li><a href="capitulo16/capitulo_16.htm" target="I2">Capítulo 16</a></li>
-<li><a href="capitulo17/capitulo_17.htm" target="I2">Capítulo 17</a></li>
-<li><a href="capitulo18/capitulo_18.htm" target="I2">Capítulo 18</a></li>
-<li><a href="capitulo19/capitulo_19.htm" target="I2">Capítulo 19</a></li>
-<li><a href="capitulo20/capitulo_20.htm" target="I2">Capítulo 20</a></li>
-<li><a href="capitulo21/capitulo_21.htm" target="I2">Capítulo 21</a></li>
-</ul>
-</dd>	
-<dt onclick="javascript:mostrar('submenu3');">API JavaScript</dt>
-<dd id="submenu3">
-<ul>
-<li><a href="capitulo22/capitulo_22.htm" target="I2">Capítulo 22</a></li>
-<li><a href="capitulo23/capitulo_23.htm" target="I2">Capítulo 23</a></li>
-<li><a href="capitulo24/capitulo_24.htm" target="I2">Capítulo 24</a></li>
-<li><a href="capitulo25/capitulo_25.htm" target="I2">Capítulo 25</a></li>
-<li><a href="capitulo26/capitulo_26.htm" target="I2">Capítulo 26</a></li>
-</ul>
-</dd>	
-</dl>
+            </ul>
+        </dd>
+        <dt onclick="javascript:mostrar('submenu2');">Planeamiento  II</dt>
+        <dd id="submenu2">
+            <ul>
+                <li><a href="capitulo11/capitulo_11.htm" target="I2">Capï¿½tulo 11</a></li>
+                <li><a href="capitulo12/capitulo_12.htm" target="I2">Capï¿½tulo 12</a></li>
+                <li><a href="capitulo13/capitulo_13.htm" target="I2">Capï¿½tulo 13</a></li>
+                <li><a href="capitulo14/capitulo_14.htm" target="I2">Capï¿½tulo 14</a></li>
+                <li><a href="capitulo15/capitulo_15.htm" target="I2">Capï¿½tulo 15</a></li>
+                <li><a href="capitulo16/capitulo_16.htm" target="I2">Capï¿½tulo 16</a></li>
+                <li><a href="capitulo17/capitulo_17.htm" target="I2">Capï¿½tulo 17</a></li>
+                <li><a href="capitulo18/capitulo_18.htm" target="I2">Capï¿½tulo 18</a></li>
+                <li><a href="capitulo19/capitulo_19.htm" target="I2">Capï¿½tulo 19</a></li>
+                <li><a href="capitulo20/capitulo_20.htm" target="I2">Capï¿½tulo 20</a></li>
+                <li><a href="capitulo21/capitulo_21.htm" target="I2">Capï¿½tulo 21</a></li>
+            </ul>
+        </dd>
+        <dt onclick="javascript:mostrar('submenu3');">Redes y conectividad</dt>
+        <dd id="submenu3">
+            <ul>
+                <li><a href="capitulo22/capitulo_22.htm" target="I2">Capï¿½tulo 22</a></li>
+                <li><a href="capitulo23/capitulo_23.htm" target="I2">Capï¿½tulo 23</a></li>
+                <li><a href="capitulo24/capitulo_24.htm" target="I2">Capï¿½tulo 24</a></li>
+                <li><a href="capitulo25/capitulo_25.htm" target="I2">Capï¿½tulo 25</a></li>
+                <li><a href="capitulo26/capitulo_26.htm" target="I2">Capï¿½tulo 26</a></li>
+            </ul>
+        </dd>
+    </dl>
 </body>
+
 </html>
 
 
@@ -144,4 +158,5 @@ background: rgb(225,240,255);
 
 
 </body>
+
 </html>
