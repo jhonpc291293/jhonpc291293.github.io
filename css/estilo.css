@@ -1,0 +1,64 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#cabecera {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#izq,
+#der {
+    display: inline;
+}
+
+#der {
+    margin-left: 200px;
+}
+
+#tabla1,
+#tabla2,
+#tabla3,
+#tabla4 {
+    width: 40%;
+}
+
+#contenido {
+    width: 85%;
+    margin: 0 auto;
+    border-style: dashed;
+}
+
+.t1 {
+    float: left;
+    margin-right: 30px;
+    background-color: #A9A9A9;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.tituloc {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.fechas {
+    width: 190px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.fch {
+    text-align: left;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
