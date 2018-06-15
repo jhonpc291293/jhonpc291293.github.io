@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.nav {
+    margin-left: 340px;
+    background-color: aquamarine;
+    position: fixed;
+    padding: 0px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    margin-right: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+.uno {
+    background-color: rgb(208, 101, 3);
+}
+
+.dos {
+    background-color: rgb(233, 147, 26);
+}
+
+.tres {
+    background-color: rgb(22, 145, 190);
+}
+
+.cuatro {
+    background-color: rgb(22, 107, 162);
+}
+
+.cinco {
+    background-color: rgb(27, 54, 71);
+}
+
+.seis {
+    background-color: rgb(21, 40, 54);
+}
+
+.siete {
+    background-color: rgb(18, 35, 54);
+}
+
+.social-bar {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre*/
+    right: 0;
+    /*Lo ponemos a la derecha de nuestra pantalla*/
+    top: 25%;
+    /*Lo posicionamos casi al centro*/
+    font-size: 1.5rem;
+    display: flex;
+    /*Aplicamos la propiedad flex*/
+    flex-direction: column;
+    /*Cambiamos el flujo que viene por defecto*/
+    align-items: flex-end;
+    /*Alineamos hacia la parte inferior*/
+    z-index: 100;
+    /*Ubicamos la barra por encima del resto de los elementos*/
+}
+
+
+/*Propiedades generales a la clase icon*/
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+
+/*Establecemos los background de cada elemento aprovechando su class*/
+
+.icon-facebook {
+    background: #3b5998;
+}
+
+.icon-twitter {
+    background: #55acee;
+}
+
+.icon-youtube {
+    background: #bb0000;
+}
+
+.icon-google-plus {
+    background: #dd4b39;
+}
+
+.icon-instagram {
+    background: #125688;
+}
+
+.icon-pinterest2 {
+    background: #cb2027;
+}
+
+.icon-rss {
+    background: #ff6600;
+}
+
+.icon-envelop {
+    background: rgb(94, 94, 94);
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+    /*Agregamos un borde redondeado al primer elemento*/
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+    /*Agregamos un borde redondeado al último elemento*/
+}
+
+
+/*Al pasar el mouse lograremos que se apliquen las siguientes propiedades*/
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.lateral {
+    background-color: #56B3AB;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 350px;
+}
+
+
+/* Perfil */
+
+.perfil__circulo {
+    border-radius: 50%;
+    height: 50px;
+    overflow: hidden;
+    margin: 0;
+    width: 50px;
+}
+
+.perfil__foto {
+    width: 100%;
+}
+
+.perfil__nombres {
+    color: #fff;
+    font-size: 20px;
+    margin-left: .5em;
+    width: 250px;
+}
+
+.perfil__nombres,
+.perfil__circulo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Información */
+
+.informacion {
+    color: #0F6A62;
+    position: absolute;
+    bottom: 1em;
+}
+
+.informacion__titulo {
+    font-size: 18px;
+}
+
+
+/* Habilidades */
+
+.habilidades {
+    padding: 0;
+}
+
+.habilidad {
+    background-color: #0F6A62;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: .5em;
+}
+
+.habilidad--proyecto {
+    background-color: #29597C;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: .5em;
+}
+
+
+/* Proyectos */
+
+.proyectos {
+    margin-left: 350px;
+    padding: 1em;
+    display: table;
+}
+
+.proyecto {
+    display: table-cell;
+    padding: 1em;
+    width: 50%;
+}
+
+.proyecto__imagen {
+    width: 100%;
+}
+
+.proyecto__titulo {
+    color: #29597C;
+    font-size: 18px;
+}
+
+.proyecto__descripcion {
+    color: #797D7F;
+}

@@ -29,6 +29,7 @@ body {
     width: 80%;
     margin: 0 auto;
     clear: both;
+    border-style: dashed;
 }
 
 .t1 {
