@@ -35,6 +35,10 @@ html {
     color: #ff6600;
 }
 
+#aler {
+    margin-left: 350px;
+}
+
 .social-bar {
     position: fixed;
     /* Hacemos que la posición en pantalla sea fija para que siempre se muestre*/
