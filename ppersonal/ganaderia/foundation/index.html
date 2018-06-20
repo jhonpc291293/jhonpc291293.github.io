@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation | The Grid</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li>
+                <a href="#"> <i class="icon-home2"></i> INICIO</a>
+            </li>
+            <li>
+                <a href="#"> <i class="icon-codepen"></i> GANADERIA</a>
+                <ul class="menu">
+                    <li>
+                        <a href="#"> <i class="icon-codepen"></i> DIVERSIDAD ANIMAL</a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="icon-envelop"></i> DIVERSIDAD FORESTAL</a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="icon-top"></i> BLOG</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"> <i class="icon-library"></i> AGRICULTURA</a>
+            </li>
+            <li>
+                <a href="#"> <i class="icon-folder-open"></i> TURISMO</a>
+                <ul class="menu">
+                    <li><a href="#">DIVERSIDAD ANIMAL</a></li>
+                    <li><a href="#">DIVERSIDAD FORESTAL</a></li>
+                    <li><a href="#">BLOG</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"> <i class="icon-github"></i> DIVERSIDAD ANIMAL</a>
+            </li>
+            <li>
+                <a href="#"> <i class="icon-github"></i> DIVERSIDAD FORESTAL</a>
+            </li>
+            <li>
+                <a href="#"> <i class="icon-github"></i> BLOG</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar" id="example-menu">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">
+                    <h4>TEMA PRINCIPAL: GANADERÍA EN CAJAMARCA</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><input type="search" placeholder="Search"></li>
+                <li><button type="button" class="button">Search</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+        <div class="orbit-wrapper">
+            <div class="orbit-controls">
+                <button class="orbit-previous"><span class="show-for-sr">IMAGEN ANTERIOR</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            </div>
+            <ul class="orbit-container">
+                <li class="is-active orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/img09.jpg" alt="Space">
+                        <figcaption class="orbit-caption">Espacio de la última frontera.</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/img10.jpg" alt="Space">
+                        <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/img11.jpg" alt="Space">
+                        <figcaption class="orbit-caption">Encapsulating</figcaption>
+                    </figure>
+                </li>
+                <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                        <img class="orbit-image" src="images/img12.jpg" alt="Space">
+                        <figcaption class="orbit-caption">Outta This World</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">DETALLES DE LA PRIMERA IMAGEN.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">DETALLES DE LA SEGUNDA IMAGEN.</span></button>
+            <button data-slide="2"><span class="show-for-sr">DETALLES DE LA TERCERA IMAGEN.</span></button>
+            <button data-slide="3"><span class="show-for-sr">DETALLES DE LA CUARTA IMAGEN.</span></button>
+        </nav>
+    </div>
+
+    <div class="grid-x">
+        <div class="cell small-3 bord">
+            <hr style="color: #0056b2;" />
+            <h5 class="text-center">ARCHIVOS DEL BLOG</h5>
+            <ul class="vertical menu" data-responsive-menu="drilldown medium-accordion" style="max-width: 250px;">
+                <li>
+                    <a href="#">GANADERÍA</a>
+                    <ul class="vertical menu">
+                        <li>
+                            <a href="#">AGRICULTURA</a>
+                            <ul class="vertical menu">
+                                <li><a href="#">Item 1A</a></li>
+                                <li><a href="#">Item 1B</a></li>
+                                <li><a href="#">Item 1C</a></li>
+                                <li><a href="#">Item 1D</a></li>
+                                <li><a href="#">Item 1E</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Item 1B</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">AGRICULTURA</a>
+                    <ul class="vertical menu">
+                        <li><a href="#">Item 2A</a></li>
+                        <li><a href="#">Item 2B</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">TURISMO</a>
+                    <ul class="vertical menu">
+                        <li><a href="#">Item 2A</a></li>
+                        <li><a href="#">Item 2B</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">DIVERSIDAD ANIMAL</a>
+                    <ul class="vertical menu">
+                        <li><a href="#">Item 3A</a></li>
+                        <li><a href="#">Item 3B</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="top-bar-right">
+                <hr style="color: #0056b2;" />
+                <p class="text-center">BUSQUE EN LOS ARCHIVOS</p>
+                <ul class="menu text-center">
+                    <li><input type="search" placeholder="Search"></li>
+                    <li><button type="button" class="button">Search</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cell small-6 text-center bord">
+            <h3>CONTENIDO PRINCIPAL</h3>
+            <div class="callout secondary">
+                <h5>¿QUÉ ES LA GANADERÍA?</h5>
+                <p class="text-left text-justify">La ganadería es una actividad económica de origen muy antiguo que consiste en el manejo y explotación de animales domesticables con fines de producción, para su aprovechamiento (véase industria láctea, avicultura, porcicultura). En cambio,
+                    el manejo de animales pertenecientes a especies silvestres (no domésticas) en cautiverio o en semicautiverio se conoce con el nombre de zoocría. Los ganados más importantes en número a nivel mundial son los relacionados con la ganadería
+                    bovina, la ovina y la porcina. Sin embargo, en algunas regiones del planeta otros tipos de ganado tienen mayor importancia, como el caprino y el equino, como así también la cunicultura, la avicultura y la apicultura.La ganadería está
+                    relacionada con la agricultura, ya que en una granja ambas pueden estar relacionadas. En estos casos el ganado aporta el estiércol, que es utilizado como abono, y los cultivos aportan el alimento para los animales.
+                </p>
+                <a href="#">It's dangerous to go alone, take this.</a>
+            </div>
+            <div class="grid-container">
+                <h5 class="text-center">NOVEDADES DE LA GANADERÍA EN CAJAMARCA</h5>
+                <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+
+                    <div class="cell">
+                        <div class="card">
+                            <img src="images/img01.jpg">
+                            <div class="card-section">
+                                <h6>LA GANADERIA EN CAJAMARCA Y SU PRODUCCION LECHERA.</h6>
+                                <p class="text-left text-justify">Cajamarca, cuenta con una diversidad ecológica que ha permitido que en toda su extensión se instalen centros de cría de ganado lechero de razas Holstein y Brown Swiss en los valles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="card">
+                            <img src="images/img02.jpg">
+                            <div class="card-section">
+                                <h6>EMPRESA GLORIA EMPEZÓ CON EL RECOJO DE LECHE DESDE EL
+                                    <date>20/06/2018</date> .</h6>
+                                <p class="text-left text-justify">Nestlé, por su parte, se comprometió a pagar a sus proveedores hasta el 26 de marzo aun cuando no se ha realizado el acopio de leche.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="card">
+                            <img src="images/img03.jpg">
+                            <div class="card-section">
+                                <h6>Minagri: Dirección General de Ganadería apoyará a pequeños productores.</h6>
+                                <p class="text-left text-justify">El ministro de Agricultura y Riego, José Hernández, anunció la creación de la Dirección General de Ganadería (DGG) para promover el desarrollo del sector ganadero nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+                <div class="cell">
+                    <div class="card">
+                        <img src="images/img02.jpg">
+                        <div class="card-section">
+                            <h6>Ganaderos aprenden de crianza y mejoramiento genético.</h6>
+                            <p class="text-left text-justify">Más de 90 pequeños ganaderos fueron capacitados en crianza responsable del ganado y mejoramiento genético.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card">
+                        <img src="images/img05.jpg">
+                        <div class="card-section">
+                            <h4>This is a card.</h4>
+                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card">
+                        <img src="images/img06.JPG">
+                        <div class="card-section">
+                            <h4>This is a card.</h4>
+                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media-object">
+                <div class="media-object-section middle">
+                    <div class="thumbnail">
+                        <img src="images/img07.jpg">
+                    </div>
+                </div>
+                <div class="media-object-section">
+                    <h4>PORQUE ES IMPORTANTE LA GANADERÍA EN LA REGIÓN DE CAJAMARCA</h4>
+                    <p>So, once we've made the plant, how do we go out? Hope you have something more elegant in mind than shooting me in the head? A kick. What's a kick? This, Ariadne, would be a kick.</p>
+                    <p>What is the most resilient parasite? Bacteria? A virus? An intestinal worm? An idea. Resilient... highly contagious. Once an idea has taken hold of the brain it's almost impossible to eradicate. An idea that is fully formed - fully
+                        understood - that sticks; right in there somewhere.</p>
+                </div>
+                <div class="media-object-section bottom">
+                    <div class="thumbnail">
+                        <img src="images/img08.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cell small-3 text-center bord">
+            <h4>TEMAS DESTACADOS</h4>
+            <div class="card" style="width: 300px;">
+                <div class="card-divider text-center">
+                    <h4>GANADERIA</h4>
+                </div>
+                <img src="images/img03.jpg">
+                <div class="card-section">
+                    <p>This card makes use of the card-divider element.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav aria-label="Pagination" class="pag">
+        <ul class="pagination text-center">
+            <li class="pagination-previous disabled">ANTERIOR</li>
+            <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+            <li><a href="#" aria-label="Page 2">2</a></li>
+            <li><a href="#" aria-label="Page 3">3</a></li>
+            <li><a href="#" aria-label="Page 4">4</a></li>
+            <li class="ellipsis"></li>
+            <li><a href="#" aria-label="Page 12">12</a></li>
+            <li><a href="#" aria-label="Page 13">13</a></li>
+            <li class="pagination-next"><a href="#" aria-label="Next page">SIGUIENTE</a></li>
+        </ul>
+    </nav>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
